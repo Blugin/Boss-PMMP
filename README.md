@@ -13,7 +13,7 @@ A PocketMine-MP Plugin | Boss
 
 기본 스폰 소환시간은 1분입니다
 
-클리너 시간은 5
+클리너 시간은 5분 
 
 # 기능
 
