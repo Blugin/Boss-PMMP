@@ -286,11 +286,11 @@ class BossCleaner extends Task{
                 foreach($level->getEntities() as $entity){
                     if($entity instanceof BossEntity){
                         $entity->kill();
-                        $this->time = 5;
                     }
                 }
             }
             FastAccess::broadcast('보스들이 제거되었습니다');
+            $this->time = 5;
         }
     }
 }
